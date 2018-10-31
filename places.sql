@@ -16,7 +16,8 @@ CREATE TABLE places (
   longitude decimal(11, 8),
   comment_status varchar(20),
   place_status varchar(20),
-  place_slug varchar(200)
+  place_slug varchar(200),
+  primary key(id)
 );
 
 CREATE TABLE place_meta (
