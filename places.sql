@@ -63,6 +63,6 @@ CREATE TABLE place_meta (
   rating decimal(2, 1),
   expiration datetime,
   subscription_key varchar(200),
-  subscription_plan varchar(200),
+  subscription_id varchar(200),
   subscription_status varchar(20)
 );
